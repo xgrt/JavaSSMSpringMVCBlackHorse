@@ -3,9 +3,10 @@ package com.xgrt.config;
 //4、定义一个Servlet容器启动的配置类，在里面加载Spring的配置
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
+
 /*
-* 简化开发
-* */
+ * 简化开发
+ * */
 public class ServletContainersInitConfig extends AbstractAnnotationConfigDispatcherServletInitializer {
 
     @Override
