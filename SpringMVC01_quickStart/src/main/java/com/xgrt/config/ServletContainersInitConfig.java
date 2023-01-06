@@ -10,8 +10,8 @@ public class ServletContainersInitConfig extends AbstractDispatcherServletInitia
     @Override
     //加载SpringMVC容器配置
     protected WebApplicationContext createServletApplicationContext() {
-        AnnotationConfigWebApplicationContext atx = new AnnotationConfigWebApplicationContext();
-        atx.register(SpringMVCConfig.class);
+        AnnotationConfigWebApplicationContext atx = new AnnotationConfigWebApplicationContext();//初始化一个空的AnnotationConfigWebApplicationContext容器
+        atx.register(SpringMVCConfig.class);//将SpringMVCConfig.class注册到容器中，即加载具体的配置
         return atx;
     }
 
