@@ -3,12 +3,14 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/SpringMVC01_quickStart" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringMVC02_bean_load" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/SpringMVC01_quichStart/pom.xml" />
         <option value="$PROJECT_DIR$/SpringMVC01_quickStart/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMVC02_bean_load/pom.xml" />
       </list>
     </option>
   </component>

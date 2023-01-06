@@ -3,5 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/SpringMVC01_quickStart/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringMVC01_quickStart/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringMVC02_bean_load/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringMVC02_bean_load/src/main/resources" charset="UTF-8" />
   </component>
 </project>
