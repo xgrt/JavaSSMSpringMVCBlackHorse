@@ -15,7 +15,7 @@ import org.springframework.stereotype.Controller;
         excludeFilters = @ComponentScan.Filter(
                 type = FilterType.ANNOTATION,//过滤的类型，现在是按注解过滤
                 classes = Controller.class
-        )//排除一些不需要扫描的
+        )//排除一些不需要扫描的bean，注解是Controller
 )
 public class SpringConfig {
 }

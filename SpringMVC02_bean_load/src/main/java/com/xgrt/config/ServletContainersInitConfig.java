@@ -16,16 +16,18 @@ public class ServletContainersInitConfig extends AbstractDispatcherServletInitia
     }
 
     @Override
-    //设置了哪些请求归属SpringMVC处理
-    protected String[] getServletMappings() {
-        return new String[]{"/"};
-    }
-
-    @Override
     //加载Spring容器的配置
     protected WebApplicationContext createRootApplicationContext() {
         AnnotationConfigWebApplicationContext atx = new AnnotationConfigWebApplicationContext();//初始化一个空的AnnotationConfigWebApplicationContext容器
         atx.register(SpringConfig.class);//将SpringMVCConfig.class注册到容器中，即加载具体的配置
         return atx;
     }
+
+    @Override
+    //设置了哪些请求归属SpringMVC处理
+    protected String[] getServletMappings() {
+        return new String[]{"/"};
+    }
 }
+
+
