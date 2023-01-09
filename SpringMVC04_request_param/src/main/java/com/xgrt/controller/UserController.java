@@ -2,6 +2,7 @@ package com.xgrt.controller;
 
 import com.xgrt.domain.User;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -60,5 +61,31 @@ public class UserController {
     public String listParam(@RequestParam List<String> hobbyS){
         System.out.println("集合参数传递：hobbyS ===> "+ hobbyS);
         return "{'module','list param'}";
+    }
+
+    //集合参数：JSON格式
+    //json的数据是在请求体里面的数据不能用@RequestParam
+    // 要用@RequestBody
+    @RequestMapping("/listParamForJson")
+    @ResponseBody
+    public String listParamForJson(@RequestBody List<String> hobbyS){
+        System.out.println("JSON集合普通参数传递：hobbyS ==> "+hobbyS);
+        return "{'module','list common for json param'}";
+    }
+
+    //pojo参数：JSON格式
+    @RequestMapping("/pojoParamForJson")
+    @ResponseBody
+    public String pojoParamForJson(@RequestBody User user){
+        System.out.println("JSON集合普通参数传递：user ==> "+user);
+        return "{'module','pojo for json param'}";
+    }
+
+    //pojo集合参数：JSON格式
+    @RequestMapping("/listPojoParamForJson")
+    @ResponseBody
+    public String listPojoParamForJson(@RequestBody List<User> users){
+        System.out.println("JSON集合普通参数传递：users ==> "+users);
+        return "{'module','list pojo for json param'}";
     }
 }
