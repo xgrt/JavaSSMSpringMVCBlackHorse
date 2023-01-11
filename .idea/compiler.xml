@@ -11,6 +11,7 @@
         <module name="SpringMVC03_request_mapping" />
         <module name="SpringMVC02_bean_load" />
         <module name="SpringMVC05_response" />
+        <module name="SpringMVC06_rest" />
       </profile>
     </annotationProcessing>
   </component>

@@ -7,6 +7,7 @@
     <file type="web" url="file://$PROJECT_DIR$/SpringMVC03_request_mapping" />
     <file type="web" url="file://$PROJECT_DIR$/SpringMVC04_request_param" />
     <file type="web" url="file://$PROJECT_DIR$/SpringMVC05_response" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringMVC06_rest" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -17,6 +18,7 @@
         <option value="$PROJECT_DIR$/SpringMVC03_request_mapping/pom.xml" />
         <option value="$PROJECT_DIR$/SpringMVC04_request_param/pom.xml" />
         <option value="$PROJECT_DIR$/SpringMVC05_response/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc06_rest/pom.xml" />
       </list>
     </option>
   </component>
