@@ -10,6 +10,7 @@
         <module name="SpringMVC04_request_param" />
         <module name="SpringMVC03_request_mapping" />
         <module name="SpringMVC02_bean_load" />
+        <module name="SpringMVC05_response" />
       </profile>
     </annotationProcessing>
   </component>
