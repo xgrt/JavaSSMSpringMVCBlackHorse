@@ -13,6 +13,7 @@
         <module name="SpringMVC02_bean_load" />
         <module name="SpringMVC06_rest" />
         <module name="SpringMVC08_ssm" />
+        <module name="SpringMVC10_exception" />
         <module name="SpringMVC05_response" />
         <module name="SpringMVC07_rest_case" />
       </profile>

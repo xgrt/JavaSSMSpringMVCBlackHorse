@@ -11,6 +11,7 @@
     <file type="web" url="file://$PROJECT_DIR$/SpringMVC07_rest_case" />
     <file type="web" url="file://$PROJECT_DIR$/SpringMVC08_ssm" />
     <file type="web" url="file://$PROJECT_DIR$/SpringMVC09_result" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringMVC10_exception" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -26,6 +27,7 @@
         <option value="$PROJECT_DIR$/SpringMVC07_rest_case/pom.xml" />
         <option value="$PROJECT_DIR$/SpringMVC08_ssm/pom.xml" />
         <option value="$PROJECT_DIR$/SpringMVC09_result/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMVC10_exception/pom.xml" />
       </list>
     </option>
   </component>
