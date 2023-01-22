@@ -11,6 +11,7 @@
         <module name="SpringMVC04_request_param" />
         <module name="SpringMVC03_request_mapping" />
         <module name="SpringMVC02_bean_load" />
+        <module name="SpringMVC11_page" />
         <module name="SpringMVC06_rest" />
         <module name="SpringMVC08_ssm" />
         <module name="SpringMVC10_exception" />
