@@ -11,15 +11,15 @@ import java.util.List;
 
 @Repository
 public interface BookDao {
-//    @Insert("insert into tbl_book values (null,#{type},#{name},#{description})")
+    //    @Insert("insert into tbl_book values (null,#{type},#{name},#{description})")
     @Insert("insert into tbl_book(type,name,description) values (#{type},#{name},#{description})")
-    void save(Book book);
+    int save(Book book);
 
     @Update("UPDATE tbl_book set type=#{type}, name=#{name}, description=#{description} where id=#{id}")
-    void update(Book book);
+    int update(Book book);
 
     @Delete("DELETE from tbl_book where id=#{id}")
-    void delete(Integer id);
+    int delete(Integer id);
 
     @Select("select * from tbl_book")
     List<Book> selectAll();
