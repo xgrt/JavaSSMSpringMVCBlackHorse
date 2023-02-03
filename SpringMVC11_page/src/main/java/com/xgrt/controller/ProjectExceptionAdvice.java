@@ -25,7 +25,7 @@ public class ProjectExceptionAdvice {
     public  Result doException(Exception e){
         //记录日志
         //发送消息给运维
-        //发送邮件个给开发人员,e对象发送给开发人员
+        //发送邮件个给开发人员,对象发送给开发人员
         return new Result(Code.SYSTEM_UNKNOWN_ERR,null,"系统繁忙，请稍后再试！");
     }
 }
